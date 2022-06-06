@@ -1,0 +1,202 @@
+.sellbook{
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: #fff
+}
+
+.sellbook hr{
+    color: #fff;
+    /* border: 1px solid #fff; */
+}
+
+.sellbook > h3{
+    text-align: center;
+    padding: 40px 0 20px;
+    color: #172337;
+}
+
+.sellbook--container{
+    width: 60%;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 20px 0 40px;
+    background-color: #172337;
+    /* background-color: red; */
+}
+
+.personal--info, .book--info{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    padding: 0 60px;
+}
+
+.personal--info .inputbox, .book--info .inputbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.sellbook--container form > h4{
+    text-align: left;
+    font-size: 22px;
+    padding: 15px 0px 20px 60px;
+    color: #fff;
+}
+
+.sellbook--container form input, .sellbook--container form textarea, .sellbook--container form select, .sellbook--container form .upload--image{
+    width: 280px;
+    padding: 5px;
+    outline: none;
+}
+
+.sellbook--container form .delivery input{
+    width: 40px;
+}
+
+.sellbook--container form .delivery{
+    width: fit-content;
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    margin: 20px auto 50px;
+    color: #fff;
+    background-color: rgba(100, 97, 97, 0.788);
+    /* background-color: #172337; */
+}
+
+.sellbook--container form .sell--btn{
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.sellbook--container form .sell--btn input{
+    width: fit-content;
+    padding: 7px 30px;
+    font-weight: 600;
+    /* background-color: rgb(224, 37, 37); */
+    background-color: #fff;
+    border: none;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #172337;
+    transition: 0.2s;
+}
+
+.sellbook--container form .sell--btn input:hover{
+    background-color: #172337;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+
+
+.sellbook .upload--image input{
+    border: none;
+}
+
+.sellbook .upload--image{
+    width: 260px;
+    height: 120px;
+    border: 1px solid black;
+    padding: 20px 10px;
+    background-color: #fff;
+}
+
+.sellbook .upload--image label{
+    padding-left: 5px;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .sellbook--container{
+        width: 70%;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .sellbook--container{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .sellbook--container{
+        width: 90%;
+    }
+
+    .personal--info, .book--info{
+        padding: 0 40px;
+    }
+
+    .sellbook--container form > h4{
+        padding: 15px 0px 20px 40px;
+    }
+
+    .sellbook--container form input, .sellbook--container form textarea, .sellbook--container form select, .sellbook--container form .upload--image{
+        margin-bottom: 25px;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .personal--info, .book--info{
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid black; */
+        padding: 0 60px;
+    }
+    
+    .personal--info .inputbox, .book--info .inputbox{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid black; */
+        margin: 0;
+    }
+
+    .sellbook--container form .delivery input{
+        margin: 0;
+    }
+
+    .sellbook--container form > h4{
+        text-align: center;
+        font-size: 22px;
+        padding: 15px 0px 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .sellbook--container form input, .sellbook--container form textarea, .sellbook--container form select, .sellbook--container form .upload--image{
+        width: 250px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .sellbook--container form input, .sellbook--container form textarea, .sellbook--container form select, .sellbook--container form .upload--image{
+        width: 220px;
+    }
+
+    .sellbook--container form > h4{
+        font-size: 18px;
+    }
+
+    .sellbook--container form .delivery input{
+        width: 30px;
+    }
+
+    .personal--info, .book--info{
+        padding: 0 30px;
+    }
+}

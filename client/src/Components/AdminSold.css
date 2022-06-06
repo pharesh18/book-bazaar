@@ -1,0 +1,27 @@
+.admin--sold{
+    background-color: #fff;
+    padding: 20px 5px;
+}
+
+.admin--sold table{
+    text-align: center;
+    font-size: 14px;
+}
+
+.admin--sold table thead{
+    background-color: rgb(68, 64, 64);
+    color: #fff;
+}
+
+.sold--book--image{
+    width: 100px;
+    height: 120px;
+}
+
+.admin--sold table, .admin--sold th, .admin--sold td{
+    border: 1px solid black;
+}
+
+.admin--sold th, .admin--sold td{
+    padding: 5px;
+}

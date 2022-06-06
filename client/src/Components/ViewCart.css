@@ -1,0 +1,36 @@
+.viewcart{
+    height: 590px;
+    background-color: rgb(233, 227, 227);
+    padding: 40px 80px;
+}
+
+.viewcart .viewcart--content{
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 60px 0;
+}
+
+.viewcart .viewcart--content img{
+    width: 300px;
+    padding-top: 10px;
+}
+
+.viewcart .viewcart--content p{
+    padding-top: 10px;
+    font-size: 24px;
+}
+
+.viewcart .viewcart--content span{
+    padding-top: 5px;
+    display: block;
+    font-size: 15px;
+}
+
+.viewcart .viewcart--content .viewcart-btn{
+    background-color: #fb641b;
+    color: #fff;
+    padding: 8px 40px;
+    text-decoration: none;
+    font-size: 18px;
+}

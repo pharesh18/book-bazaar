@@ -1,0 +1,149 @@
+.view--book{
+    width: 70%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.view--book > p{
+    background-color: rgb(90, 87, 87);
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.view--container{
+    display: flex;
+    padding: 0 10px 10px;
+}
+
+.view--image img{
+    width: 180px;
+    height: 220px;
+    border: 2px solid black;
+}
+
+.view--details{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 20px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.view--details span{
+    margin-bottom: 10px;
+}
+
+.view--book .back{
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.view--book a{
+    text-decoration: none;
+    display: inline;
+    text-align: right;
+    padding: 4px 14px;
+    background-color: rgb(90, 87, 87);
+    color: #fff;
+    border-radius: 2px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .view--book{
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .view--book{
+        width: 70%;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .view--book{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .view--book{
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .view--book{
+        margin-top: 50px;
+    }
+
+    .view--book > p{
+        font-size: 20px;
+    }
+    
+    .view--image img{
+        width: 150px;
+        height: 180px;
+    }
+    
+    .view--details{
+        padding: 0 10px 0 10px;
+    }
+    
+    .view--details span{
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .view--book{
+        width: 80%;
+        border-radius: 3px;
+    }
+ 
+    .view--container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .view--image img{
+        margin-bottom: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .view--book{
+        width: 90%;
+        border-radius: 3px;
+    }
+
+    .view--book > p{
+        font-size: 16px;
+    }
+ 
+    .view--container{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .view--image img{
+        margin-bottom: 20px;
+    }
+}

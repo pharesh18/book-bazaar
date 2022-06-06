@@ -1,0 +1,152 @@
+.view--request{
+    width: 70%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.view--request > p{
+    background-color: rgb(90, 87, 87);
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.view--request--container{
+    display: flex;
+    padding: 0 10px 10px;
+}
+
+.view--request--image img{
+    width: 180px;
+    height: 220px;
+    border: 2px solid black;
+}
+
+.view--request--details{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 20px;
+    text-align: justify;
+}
+
+.view--request--details span{
+    margin-bottom: 5px;
+}
+
+.view--request .back{
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.view--request a{
+    text-decoration: none;
+    display: inline;
+    text-align: right;
+    padding: 4px 14px;
+    background-color: rgb(90, 87, 87);
+    color: #fff;
+    border-radius: 2px;
+}
+
+
+.personal--details{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.personal--details span{
+    margin-bottom: 5px;
+}
+
+.view--request > h3{
+    font-size: 24px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.personal--details h3{
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    .view--request{
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .view--request{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .view--request > p{
+        font-size: 20px;
+    }
+    
+    .view--request--image img{
+        width: 150px;
+        height: 180px;
+    }
+    
+    .view--request--details{
+        padding: 0 10px 0 10px;
+    }
+    
+    .view--request--details span, .personal--details span{
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .view--request{
+        width: 85%;
+        border-radius: 3px;
+    }
+ 
+    .view--request--container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .view--request--image img{
+        margin-bottom: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .view--request{
+        width: 90%;
+        border-radius: 3px;
+    }
+
+    .view--request > p{
+        font-size: 16px;
+    }
+ 
+    .view--request--container{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .view--request--image img{
+        margin-bottom: 20px;
+    }
+}

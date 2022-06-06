@@ -1,0 +1,38 @@
+.orders{
+    background-color: #fff;
+    padding: 20px 5px;
+}
+
+.orders table{
+    text-align: center;
+    font-size: 14px;
+}
+
+.orders table thead{
+    background-color: rgb(68, 64, 64);
+    color: #fff;
+}
+
+.orders--book--image{
+    width: 100px;
+    height: 120px;
+}
+
+.orders table, .orders th, .orders td{
+    border: 1px solid black;
+}
+
+.orders th, .orders td{
+    padding: 5px;
+}
+
+.orders table button{
+    border: none;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: 500;
+    color: #fff;
+    background-color: rgb(68, 64, 64);
+    cursor: pointer;
+}

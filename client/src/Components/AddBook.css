@@ -1,0 +1,154 @@
+.addbook{
+    width: 60%;
+    margin: 50px auto 50px;
+    border: 1px solid black;
+    padding: 0 0 50px;
+    background-color: #172337;
+}
+
+.addbook h3{
+    text-align: center;
+    padding: 30px 0 30px;
+    color: #fff;
+}
+
+.addbook--container form{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.addbook .inputbox{
+    width: 90%;
+    margin-bottom: 20px;
+    /* border: 1px solid black; */
+}
+
+.addbook .inputbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.addbook .inputbox input{
+    padding: 5px 5px;
+    width: 260px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.addbook .inputbox select{
+    padding: 5px;
+    width: 260px;
+    outline: none;
+    border-radius: 2px;
+}
+
+.addbook .inputbox textarea{
+    padding: 5px 5px;
+    width: 260px;
+    height: 120px;
+    outline: none;
+    border-radius: 2px;
+}
+
+.addbook .btn--add{
+    margin-top: 30px;
+}
+
+.addbook .btn--add input{
+    padding: 8px 16px;
+    background-color: #fff;
+    outline: none;
+    border: none;
+    color: #172337;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+.addbook .btn--add input:hover{
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #172337;
+}
+
+.addbook .upload--image input{
+    border: none;
+}
+
+.addbook .upload--image{
+    width: 260px;
+    height: fit-content;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.addbook .upload--image label{
+    padding-left: 5px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .addbook{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .addbook{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .addbook{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .addbook--container{
+        padding: 0 10px;
+    }
+    
+    .addbook{
+        width: 95%;
+    }
+
+    .addbook .inputbox{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .addbook{
+        width: 90%;
+    }
+    
+    .addbook .inputbox{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    .addbook .inputbox input, .addbook .inputbox textarea, .addbook .inputbox select, .addbook .inputbox div{
+        margin-bottom: 25px;
+    }
+
+    .addbook .inputbox input[type="file"]{
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .addbook{
+        width: 90%;
+    }
+    .addbook .inputbox input, .addbook .inputbox textarea, .addbook .inputbox select, .addbook .inputbox div{
+        width: 220px;
+    }
+}

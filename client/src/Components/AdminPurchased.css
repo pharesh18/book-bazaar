@@ -1,0 +1,27 @@
+.admin--purchased{
+    background-color: #fff;
+    padding: 20px 5px;
+}
+
+.admin--purchased table{
+    text-align: center;
+    font-size: 14px;
+}
+
+.admin--purchased table thead{
+    background-color: rgb(68, 64, 64);
+    color: #fff;
+}
+
+.purchased--book--image{
+    width: 100px;
+    height: 120px;
+}
+
+.admin--purchased table, .admin--purchased th, .admin--purchased td{
+    border: 1px solid black;
+}
+
+.admin--purchased th, .admin--purchased td{
+    padding: 5px;
+}

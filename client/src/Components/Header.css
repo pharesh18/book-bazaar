@@ -1,0 +1,24 @@
+.header img{
+    width: 200px;
+}
+
+.header .navbar{
+    /* background-color: #2874f0; */
+    background-color: #232838;
+}
+
+.navbar-nav{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+:root{
+    --primary:#EEBF00;
+    --secondary:#232838;
+    --ternary:#6C6C6C;
+    --danger:#FE4545;
+    --pure:#FEFEFE;
+    --light:#F0F0F0;
+    --heaven:#FFFFFF;
+    --footer:#2D333F;
+}
