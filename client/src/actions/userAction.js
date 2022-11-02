@@ -45,6 +45,7 @@ export const login = (email, password, navigate) => async dispatch => {
 
 
 
+
 export const register = (name, email, password, number, navigate) => async (dispatch) => {
     try {
         dispatch({ type: USER_REGISTER_REQUEST });
@@ -88,7 +89,6 @@ export const getUserDetails = (id) => async (dispatch, getState) => {
         });
     }
 }
-
 
 
 export const updateUserProfile = (user, navigate) => async (dispatch, getState) => {

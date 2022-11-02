@@ -49,49 +49,6 @@ const AdminHome = () => {
                     <DashboardHeader></DashboardHeader>
                     <div className="dashboard--container">
                         <div className='admin--main--content'>
-                            {/* <div className="admin--book--category">
-                    <h5>Book Category</h5>
-                    <span>Action & Adventure</span>
-                    <span>Health & Fitness</span>
-                    <span>Travel</span>
-                    <span>Drama</span>
-                    <span>Biography & Autobiography</span>
-                    <span>Action & Adventure</span>
-                    <span>Health & Fitness</span>
-                    <span>Travel</span>
-                    <span>Drama</span>
-                    <span>Biography & Autobiography</span>
-                    <span>Action & Adventure</span>
-                    <span>Health & Fitness</span>
-                    <span>Travel</span>
-                    <span>Drama</span>
-                    <span>Biography & Autobiography</span>
-                    <span>Action & Adventure</span>
-                    <span>Health & Fitness</span>
-                    <span>Travel</span>
-                    <span>Drama</span>
-                    <span>Biography & Autobiography</span>
-                </div> */}
-                            {/* 
-
-                            <div class="book--category--dropdown">
-                                <button class="btn-book--category dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Book Category
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li><a class="dropdown-item" href="#">Action & Adventure</a></li>
-                                    <li><a class="dropdown-item" href="#">Health & Fitness</a></li>
-                                    <li><a class="dropdown-item" href="#">Travel</a></li>
-                                    <li><a class="dropdown-item" href="#">Drama</a></li>
-                                    <li><a class="dropdown-item" href="#">Biography & Autobiography</a></li>
-                                    <li><a class="dropdown-item" href="#">Action & Adventure</a></li>
-                                    <li><a class="dropdown-item" href="#">Health & Fitness</a></li>
-                                    <li><a class="dropdown-item" href="#">Travel</a></li>
-                                    <li><a class="dropdown-item" href="#">Drama</a></li>
-                                    <li><a class="dropdown-item" href="#">Biography & Autobiography</a></li>
-                                </ul>
-                            </div> */}
-
                             <div className="admin--main">
                                 <div className="admin--filter">
                                     <div className="admin--filter--search">
@@ -106,10 +63,6 @@ const AdminHome = () => {
                                             Book Category
                                         </button>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                            {/* <li><a class="dropdown-item" href="#">All</a></li>
-                                            <li><a class="dropdown-item" href="#">New</a></li>
-                                            <li><a class="dropdown-item" href="#">Used</a></li>
-                                            <li><a class="dropdown-item" href="#">Poor</a></li> */}
                                             <li><a class="dropdown-item" href="#">Action & Adventure</a></li>
                                             <li><a class="dropdown-item" href="#">Health & Fitness</a></li>
                                             <li><a class="dropdown-item" href="#">Travel</a></li>

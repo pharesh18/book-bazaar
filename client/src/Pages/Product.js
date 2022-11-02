@@ -100,12 +100,11 @@ const Product = () => {
 
                 </div>
             </div>
-            {/* <hr /> */}
-            {/* 
+            <hr />
             <div className='product--related--books'>
                 <h2>Related books</h2>
                 <SlickSlider></SlickSlider>
-            </div> */}
+            </div>
             <Footer></Footer>
         </>
     );

@@ -30,11 +30,6 @@
     width: 180px;    
 }
 
-.dashboard .sidebar .sidebar--menu{
-    /* background-color: #fff; */
-    /* height: 100%; */
-}
-
 .dashboard .sidebar .sidebar--menu .single--menu{
     display: flex;
     align-items: center;
